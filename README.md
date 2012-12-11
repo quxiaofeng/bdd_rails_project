@@ -22,6 +22,23 @@ Steps
 4. Cucumber:
 5. RSpec:
 
+### The Ubuntu RVM Problem
+
+Becase the ubuntu rvm package is broken. So follow [this post](http://stackoverflow.com/questions/9056008/installed-ruby-1-9-3-with-rvm-but-command-line-doesnt-show-ruby-v/9056395#9056395).
+
+Remove the ubuntu rvm and rails package, and install ruby and rails using
+ curl.
+
+After installing of RVM, we ask RVM for requirements using "rvm
+requirements".
+
+Dependencies include: 
+build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g
+zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev
+libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion
+pkg-config
+
+
 ### First Prototype
 
 ### OpenCV App

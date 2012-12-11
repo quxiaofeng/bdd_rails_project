@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require 'fileutils'
 
 FileUtils.rm(Dir.glob('*~'), :force=>true)

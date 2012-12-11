@@ -1,13 +1,13 @@
 % COMP5222 Group Project    
-  Behaviour-Driven Development Survey Taken Cucumber As An Example
+  Behavior-Driven Development Survey Taken Cucumber As An Example
 % Qu Xiaofeng    
   09903198R
 
-# What Is Behaviour-Driven Development
+# What Is Behavior-Driven Development
 
-Behaviour-driven development is based on the test-driven development. BDD can be taken as a special TDD which starts with Acceptance Test.
+Behavior-driven development (BDD) is a software development process developed on test-driven development (TDD) in software engineering field. The traditional techniques and principles of TDD and thoughts from domain-driven design and object-oriented analysis and design are combined togother. It provides software developers and business analysts with common tools and a common process to cooperate in software development process.
 
-Beside the precedures which are obviously different from TDD and waterfall model, the toolchain used in BDD is also very different with other.
+BDD is principally based on the concept that software development should be performed by both business side and technical side.The practice of BDD relys on the use of customized software tools to support this development process. This development environment is not only specifically developed for use in BDD projects, but also it can be used as a specialized forms of the tool-chain that supports test-driven development. The central theme of BDD is the tools who automate the testing from specifications written with ubiquitous language.
 
 The most important includes:
 
@@ -27,7 +27,7 @@ The most important includes:
 4. testable
 5. refactor
 
-## The concept of behaviour-driven development
+## The concept of behavior-driven development
 
 1. the outer and inner circles
 2. cucumber and rspec
